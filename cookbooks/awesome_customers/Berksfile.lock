@@ -1,0 +1,15 @@
+DEPENDENCIES
+  awesome_customers
+    path: .
+    metadata: true
+
+GRAPH
+  apt (2.6.1)
+  awesome_customers (0.1.0)
+    apt (~> 2.6.1)
+    firewall (~> 1.5.0)
+    httpd (~> 0.2.14)
+  firewall (1.5.2)
+    poise (~> 2.0)
+  httpd (0.2.19)
+  poise (2.4.0)
